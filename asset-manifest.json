@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/covid19-dtstud-tracker/static/css/main.7f20bfef.css",
+    "main.js": "/covid19-dtstud-tracker/static/js/main.3bc1ce23.js",
+    "static/js/787.88f97ea9.chunk.js": "/covid19-dtstud-tracker/static/js/787.88f97ea9.chunk.js",
+    "index.html": "/covid19-dtstud-tracker/index.html",
+    "main.7f20bfef.css.map": "/covid19-dtstud-tracker/static/css/main.7f20bfef.css.map",
+    "main.3bc1ce23.js.map": "/covid19-dtstud-tracker/static/js/main.3bc1ce23.js.map",
+    "787.88f97ea9.chunk.js.map": "/covid19-dtstud-tracker/static/js/787.88f97ea9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7f20bfef.css",
+    "static/js/main.3bc1ce23.js"
+  ]
+}
