@@ -1,0 +1,23 @@
+.live {
+  animation: animate 1.5s linear infinite;
+  color: white;
+}
+
+@keyframes animate {
+  0% {
+    opacity: 0;
+  }
+
+  50% {
+    opacity: 0.7;
+  }
+
+  100% {
+    opacity: 0;
+  }
+
+}
+
+h1 {
+  filter: drop-shadow(2px 2px rgb(110, 116, 209));
+}

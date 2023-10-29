@@ -1,0 +1,105 @@
+/*  Basic Styling */
+body {
+    background-color: rgb(68, 66, 66);
+    padding: 20px;
+    text-align: center;
+    min-height: 100vh;
+    align-items: center;
+
+}
+
+h1, p, h2 {
+    color: white;
+}
+
+ul{
+    list-style-type:none;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.mainbod {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.mainbod>* {
+    flex: 1 1 460px;
+}
+
+.card:hover {
+    transform: scale(1.1);
+    background-color: rgb(120, 120, 240);
+}
+.card {
+    height: 150px;
+    width: 400px;
+    margin: 25px;
+    align-items: center;
+    border-radius: 20px;
+    filter: drop-shadow(2px 2px black);
+    background-color: rgb(116, 116, 209);
+    /*-webkit-animation: random 5s infinite;*/
+    animation: mymove 5s infinite;
+}
+
+/*@keyframes  random {*/
+/*    15% { background-color: red; }*/
+/*    30% { background-color: yellow; }*/
+/*    45% { background-color: green; }*/
+/*    60% { background-color: blue; }*/
+/*    75% { background-color: white; }*/
+/*}*/
+
+
+@keyframes mymove{
+    from{background-color: #9e4bf8; }
+    to{background-color: #c170f8;}
+}
+/*YOU CAN USE LIKE IT TOO :d*/
+/**!*/
+
+div
+{
+    transition: all 0.3s ease-out;
+}
+.card_name{
+    font-size: 25px;
+    font-weight: bold;
+    filter: drop-shadow(1px 1px black);
+}
+
+.card_name span {
+    font-size: 15px;
+}
+
+@keyframes flip {
+    0%,80% {
+        transform: rotateY(360deg)
+    }
+}
+.card_total {
+    font-size: 30px;
+    font-weight: bold;
+    /*animation:*/
+    /*        typing 3.5s steps(40, end),*/
+    /*        blink-caret .75s step-end infinite;*/
+    animation: flip 2s;
+    animation-delay: calc(.2s * 1)
+}
+
+/* The typing effect */
+@keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: orange; }
+}
+
+
+
+
